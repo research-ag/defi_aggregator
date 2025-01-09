@@ -1,23 +1,12 @@
 {
   "version": 3,
-  "mopsTomlDepsHash": "a906e3a43ec18eebb2aa02d5f6e22e612a3ef02e4607febb7ab2febd1c235763",
+  "mopsTomlDepsHash": "99b249909ff8918a3f0e27e2be0550e8e053142da4333cc77e0baaf6d0d4fb65",
   "deps": {
     "base": "0.12.1",
     "swb": "1.0.0",
     "vector": "0.1.2",
-    "sha2": "0.0.2",
     "stableheapbtreemap": "1.3.0",
     "matchers": "https://github.com/kritzcreek/motoko-matchers#v1.3.0",
-    "certified-http": "0.1.6",
-    "ic-certification": "0.1.1",
-    "sha256": "https://github.com/enzoh/motoko-sha#9e2468f51ef060ae04fde8d573183191bda30189",
-    "cbor": "https://github.com/gekctek/motoko_cbor#v1.0.1",
-    "xtended-numbers": "https://github.com/edjcase/motoko_numbers#v1.0.2",
-    "sha224": "https://github.com/flyq/motoko-sha224#82e0aa1a77a8c0a2f98332b59ffc242d820e62cb",
-    "http-parser": "0.1.0",
-    "array": "https://github.com/aviate-labs/array.mo#master",
-    "base-0.7.3": "https://github.com/dfinity/motoko-base#aafcdee0c8328087aeed506e64aa2ff4ed329b47",
-    "encoding": "https://github.com/aviate-labs/encoding.mo#master",
     "rxmo": "0.3.0"
   },
   "hashes": {
@@ -87,13 +76,6 @@
       "vector@0.1.2/src/Class.mo": "524294ace600993dc0a019f9be4c9c7462d3d55e77eb1b97b715fa6fc18761c6",
       "vector@0.1.2/src/lib.mo": "d85f53d96426f396841ae5cdb81107f5afd1d802a192c6570153a3e195966863"
     },
-    "sha2@0.0.2": {
-      "sha2@0.0.2/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "sha2@0.0.2/README.md": "e22225d0b55296bf5420cf629a6e2101863b50bd97f33a1b4826b2503c1edd6c",
-      "sha2@0.0.2/src/Sha512.mo": "7b7807cabf231774511382718da9be5e4129906b231f48ab689050d687c1eb97",
-      "sha2@0.0.2/src/Sha256.mo": "36a68012d5a6efc15dc226e52920c8b5f689398ee2933e36d8db084c3f8b6088",
-      "sha2@0.0.2/mops.toml": "0283b3a0f38d8fa1274f997fb51bb8248c2c51adde46e8febd9e9f4ead090de5"
-    },
     "stableheapbtreemap@1.3.0": {
       "stableheapbtreemap@1.3.0/src/Check.mo": "c9a3189ba0669abf69c83c2ab525f5cc9312df5ec1bfbcaad7812b0d958301bc",
       "stableheapbtreemap@1.3.0/mops.toml": "afaa0ea7be24232400a88c9b063caf36281873d311b48a5451d3ca0bfa707f07",
@@ -105,40 +87,6 @@
       "stableheapbtreemap@1.3.0/src/Types.mo": "d99c0bcb0fc6ed687e98cad7e17e605834de9981fa49e0df8e54810a0a2c8139",
       "stableheapbtreemap@1.3.0/src/NodeUtil.mo": "1ab779e112b84093d62fa9e159b9b7727a667656f00be6c3a2938c699a78b1dc",
       "stableheapbtreemap@1.3.0/performance_testing/src/btree.mo": "d305dbcc35f436361f3d42a2d3456bfa31a1ba01e9fb4b85df3b86df3b7e6328"
-    },
-    "certified-http@0.1.6": {
-      "certified-http@0.1.6/src/lib.mo": "348389f7bd27750113873f864ad83e0b80d1bb8fd7fad9e561d9500df2edeba1",
-      "certified-http@0.1.6/src/demo.mo": "d2de3332a0dfb397a3ddcfe5bea7e8db7c734e8c159de4ed84085e56b7855694",
-      "certified-http@0.1.6/mops.toml": "cdc6d23d601b78ab26b6ccebf19955a0720c66c5e3d92e71c29236f6a5e04270",
-      "certified-http@0.1.6/src/Http.mo": "a06df150ae5f64bbcd705ece2e2b3d4d8e981810f5e0303961fade67e8d1009c",
-      "certified-http@0.1.6/README.md": "598a766c1ca2bfc7892d35cae9484b8fd1c3b0aefef76203634fbd59c81af982",
-      "certified-http@0.1.6/src/test.mo": "07eaa92f0bf6e895a81b1625508e63210acd6472805a161be7d70e404fbdfe76"
-    },
-    "ic-certification@0.1.1": {
-      "ic-certification@0.1.1/README.md": "fd6f2387ab47db00735360f873b28709e83da3c6922f65c1620a89a47fb62229",
-      "ic-certification@0.1.1/tmp.mo": "d059735d9947c31d5babe556a2e4990969564f1e5d9356d66b1d6931f7907b87",
-      "ic-certification@0.1.1/demo/ManagementCanister.mo": "51b2a7d1fe68a9dbeb65d8bcdc0c6c0d93cc7babea6c5ceacb70b02cfca0d897",
-      "ic-certification@0.1.1/src/CanisterSigs.mo": "4f626f89b8f6a20b849fc3f94b4f9d9a41f2c36c063217e0d2c2d936c870f7ae",
-      "ic-certification@0.1.1/src/CertTree.mo": "a2afeb4bbf13e08b78a17f5f6245a79a9f99e8ebaae8dc483f3ea336c2be2c6a",
-      "ic-certification@0.1.1/mops.toml": "235008db7089d572a91821e88768176fbab2f58f60b1406d886723ac5114909a",
-      "ic-certification@0.1.1/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-      "ic-certification@0.1.1/demo/main.mo": "cfdc5dd9f1ef1803dfb68a1c249bf41513b97be7bfb29d00c6def6f2038fc6b5",
-      "ic-certification@0.1.1/src/Dyadic.mo": "d03fdcc331aa8c8f969c3f4e38ea0ec0e11f59a3a337dbcbad69f1cfac332b81",
-      "ic-certification@0.1.1/src/MerkleTree.mo": "b5c1b89cc206b0318e06e4684cd312930ec739aff7cd5f38cebdfc05b715cdc4",
-      "ic-certification@0.1.1/src/ReqData.mo": "b4c882946c17caaecd954deb858097ed9679ccffc5758253fcf3500197aca7e9"
-    },
-    "http-parser@0.1.0": {
-      "http-parser@0.1.0/mops.toml": "f7e0fcb83d06768bd897c0a5a9b3aafae669d8abc7f41a7cc8135cf3fd8e575b",
-      "http-parser@0.1.0/README.md": "92e43712f846bbd41764f8aab1dff66dc8f4b104ee345206dfe8bd5e5ecb05fc",
-      "http-parser@0.1.0/src/form-data.mo": "53406b8e74b78bb1d612a7ccb47879529358e629da62dd9f2e422beeaf8f3593",
-      "http-parser@0.1.0/src/Types.mo": "7e54ac63bb7ff334bf83bc3642ec83ed98c5241c4a7332f76711f880112c9b20",
-      "http-parser@0.1.0/src/lib.mo": "2d8e1f4ae4dc20fc58d0df8c854fed5a4181b4a0087ed2c960730cbcbc3978e0",
-      "http-parser@0.1.0/LICENSE": "e51904860d626bf775bbd9fb90befdf628fbf6d6334b5c874856edf09c089e51",
-      "http-parser@0.1.0/src/Utils.mo": "8cc6b2ad88325025301ef3e2fc9475d48bf2e7051b9ff5fed1f18f15ae664e5f",
-      "http-parser@0.1.0/src/MultiValueMap.mo": "1cf677960b60f6306fe1102829d6f53ae42a29556e20f1e07a6eed4aef73de09",
-      "http-parser@0.1.0/tests/Test.mo": "ad3cac78a6db2f6779af14c455b0d721b15c74704347529b9a6e20ee87824a0e",
-      "http-parser@0.1.0/example/src/main.mo": "cb9d155ae323c1cbbce66d8d1b18903e41717c86d6d8f7ad70f8a03bcd4c92e3",
-      "http-parser@0.1.0/tests/utils/ActorSpec.mo": "7b56d201ac4daef6eee6efb05fd468ecb2512c5b035d64347c6bc3aacfb16aab"
     },
     "rxmo@0.3.0": {
       "rxmo@0.3.0/mops.toml": "2695e7d0887298b251200641c7ed74dbbae2171ba51c79fc6c0214d1a5edd9c3",
